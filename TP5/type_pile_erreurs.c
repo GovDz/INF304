@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 #include "type_pile_erreurs.h"
 
 erreur_pile creer_pile(PileEntiers *p) {
     if (p != NULL) return POINTEUR_NUL;
     else {
         p->n = 0;
-        return OK
+        return OK;
     }
 }
 
