@@ -7,40 +7,36 @@ Created:  2023-10-09T15:04:25.661Z
 
 #include <stdio.h>
 #include "commandes_calculette.h"
-#include "type_pile.h"
+#include "type_pile_erreurs.h"
 
 int addition(PileEntiers *p){
-    int val1 = sommet(p);
-    depiler(p);
-    int val2 = sommet(p);
-    depiler(p);
+    int val1, val2;
+    depiler(p,&val1);
+    depiler(p,&val2);
     val1 = val1 + val2;
     empiler(p,val1);
     return val1;
 }
 int soustraction(PileEntiers *p){
-    int val1 = sommet(p);
-    depiler(p);
-    int val2 = sommet(p);
-    depiler(p);
-    val1 = val2 - val1;
+    int val1, val2;
+    depiler(p,&val1);
+    depiler(p,&val2);
+    val1 = val1 - val2;
     empiler(p,val1);
     return val1;
 }
 int multiplication(PileEntiers *p){
-    int val1 = sommet(p);
-    depiler(p);
-    int val2 = sommet(p);
-    depiler(p);
+    int val1, val2;
+    depiler(p,&val1);
+    depiler(p,&val2);
     val1 = val1 * val2;
     empiler(p,val1);
     return val1;
 }
 int division(PileEntiers *p){
-    int val1 = sommet(p);
-    depiler(p);
-    int val2 = sommet(p);
-    depiler(p);
+    int val1, val2;
+    depiler(p,&val1);
+    depiler(p,&val2);
     if(val2 != 0){
         val1 = val1 / val2;
         empiler(p,val1);
@@ -66,6 +62,7 @@ int main(int argc, char **argv) {
   commande command;
 
   int value;
+  int *tmp = NULL;
 
   while (!fin_commandes(fichier)) {
     command = commande_suivante(fichier);
@@ -75,7 +72,7 @@ int main(int argc, char **argv) {
       vider(&p);
       break;
     case DEPILER_SOMMET:
-      depiler(&p);
+      depiler(&p, tmp);
       break;
     case EMPILER_VALEUR:
       empiler(&p, command.arg);
