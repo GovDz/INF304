@@ -4,7 +4,6 @@ calculette.c (c) 2023
 Desc: UGA - L2 - INF304 
 Created:  2023-10-09T15:04:25.661Z
 */
-
 #include <stdio.h>
 #include "commandes_calculette.h"
 #include "type_pile_erreurs.h"

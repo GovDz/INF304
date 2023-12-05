@@ -1,0 +1,77 @@
+Test 1:
+Tests total : 20
+Réussites : 1
+Échecs : 19
+  - Chutes dans l'eau : 11
+  - Écrasements contre un rocher : 8
+  - Perdus : 0
+Nombre moyen de pas pour les réussites : 16.00
+Somme des pas : 16
+
+
+Test 2:
+Tests total : 20
+Réussites : 6
+Échecs : 0
+  - Chutes dans l'eau : 0
+  - Écrasements contre un rocher : 0
+  - Perdus : 0
+Nombre moyen de pas pour les réussites : 58.50
+Somme des pas : 351
+
+
+Test 3:
+Tests total : 20
+Réussites : 15
+Échecs : 5
+  - Chutes dans l'eau : 0
+  - Écrasements contre un rocher : 0
+  - Perdus : 5
+Nombre moyen de pas pour les réussites : 91.60
+Somme des pas : 1374
+
+
+Test 4:
+Tests total : 20
+Réussites : 1
+Échecs : 19
+  - Chutes dans l'eau : 11
+  - Écrasements contre un rocher : 8
+  - Perdus : 0
+Nombre moyen de pas pour les réussites : 26.00
+Somme des pas : 26
+
+
+Test 5:
+Tests total : 20
+Réussites : 1
+Échecs : 19
+  - Chutes dans l'eau : 11
+  - Écrasements contre un rocher : 8
+  - Perdus : 0
+Nombre moyen de pas pour les réussites : 48.00
+Somme des pas : 48
+
+
+Test 6:
+Tests total : 20
+Réussites : 19
+Échecs : 1
+  - Chutes dans l'eau : 0
+  - Écrasements contre un rocher : 0
+  - Perdus : 1
+Nombre moyen de pas pour les réussites : 168.42
+Somme des pas : 3200
+
+
+Test 7:
+Tests total : 20
+Réussites : 14
+Échecs : 6
+  - Chutes dans l'eau : 0
+  - Écrasements contre un rocher : 3
+  - Perdus : 3
+Nombre moyen de pas pour les réussites : 69.14
+Somme des pas : 968
+
+

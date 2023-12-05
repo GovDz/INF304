@@ -1,0 +1,7 @@
+terrain_test.txt
+programme_ignore_rotation.txt
+10000
+F
+3
+0
+E
