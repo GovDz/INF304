@@ -1,0 +1,55 @@
+
+
+=== Output for programme_test_boucle.txt ===
+
+Erreur lecture du terrain : erreur d'ouverture du fichier
+
+
+=== Output for programme_test_div_0.txt ===
+
+ERREUR : pile vide
+
+
+=== Output for programme_test_sortie_terrain.txt ===
+
+victoire le test est passé
+
+
+=== Output for programme_test_full_eau.txt ===
+
+victoire le test est passé
+
+
+=== Output for programme_test_2.txt ===
+
+Le robot est sorti :-)
+
+
+=== Output for programme_test_ignore_et_rotation.txt ===
+
+ERREUR : pile vide
+
+
+=== Output for programme_test_trop_grand.txt ===
+
+victoire le test est passé
+
+
+=== Output for programme_test_imbriques.txt ===
+
+victoire le test est passé
+
+
+=== Output for programme_test_imbriques2.txt ===
+
+Le robot est sorti :-)
+
+
+=== Output for programme_test_groupe_de_commande.txt ===
+
+Le robot est sorti :-)
+
+
+=== Output for programme_test_obstacle.txt ===
+
+victoire le test est passé

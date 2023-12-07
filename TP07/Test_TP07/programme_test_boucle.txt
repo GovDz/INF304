@@ -1,5 +1,5 @@
-terrain_test.txt
-programme_boucles.txt
+./Test_TP07/terrain_test.txt
+./Test_TP07/programme_boucles.txt
 10000
 F
 0

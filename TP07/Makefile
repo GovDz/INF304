@@ -13,6 +13,8 @@ all: $(PROGRAMMES)
 
 test_terrain.o: test_terrain.c terrain.h
 
+interprete%.o: interprete%.c interprete.h environnement.h observateur.h programme.h type_pile.h robot.h terrain.h
+
 test_robot.o: test_robot.c robot.h
 
 observateur.o: observateur.c observateur.h

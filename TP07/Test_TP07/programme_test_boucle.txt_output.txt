@@ -1,0 +1,1 @@
+Erreur lecture du terrain : erreur d'ouverture du fichier
